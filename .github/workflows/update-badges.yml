@@ -14,7 +14,7 @@ jobs:
       - name: "Update URLs in badges"
         shell: bash -l {0}
         run: |
-          sed -i "s|PGE383-HPC/$ASSIGNMENT/actions|$GITHUB_REPOSITORY/actions|g" README.md
+          sed -i "s|PGE311/$ASSIGNMENT/actions|$GITHUB_REPOSITORY/actions|g" README.md
       - name: Autocommit Changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
