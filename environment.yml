@@ -1,0 +1,13 @@
+name: assignment10
+channels: 
+  - conda-forge
+  - defaults
+dependencies:
+  - scikit-image=0.19.2
+  - opencv=4.5.5
+  - nbconvert=6.4.5
+  - python=3.10.2
+  - ipython=8.1.1
+  - pandas=1.4.1
+  - numpy=1.22.2
+  - matplotlib=3.5.1
